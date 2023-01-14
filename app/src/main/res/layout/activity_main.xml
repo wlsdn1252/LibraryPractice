@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -28,6 +29,20 @@
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="진행 강의"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/lectureImg1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
 
 
 </LinearLayout>
