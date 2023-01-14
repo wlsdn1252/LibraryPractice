@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this,ViewProfilePhotoActivity :: class.java)
             startActivity(myIntent)
         }
+
     }
 }
