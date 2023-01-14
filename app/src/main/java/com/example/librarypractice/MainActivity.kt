@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
                 "%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8D%B8%EB%84%A4%EC%9D%BC-1." +
                 "png?resize=1024%2C576&ssl=1").into(lectureImg1)
 
+        // 전화걸기 버튼 누르면 권한확인 / 전화연결
+        callBtn.setOnClickListener {
+            // 라이브러리 활용 전화 권환 확인 실제 전화연결
+
+        }
     }
 }
